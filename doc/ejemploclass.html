@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejemplo de fondo</title>
+    <style>
+      .item {
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+
+      .lista_grande {
+        margin: 1.5rem;
+        font-size: 1.2rem;
+      }
+
+      .otro {
+        background-color: #303030;
+        color: #fff;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="item">
+      Este elemento tiene la clase item.
+      <ul class="otro lista_grande">
+        <li>Este viene sin class</li>
+        <li class="item">Este viene con class item</li>
+        <li class="otro">Este viene con class otro</li>
+      </ul>
+      <p>
+        Este párrafo está con un <span class="item">span con class item</span>
+      </p>
+    </div>
+  </body>
+</html>
