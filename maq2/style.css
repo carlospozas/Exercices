@@ -1,0 +1,119 @@
+BODY {
+  background: #c0d9d9 url(images/fondo.gif) repeat;
+  font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: #666666;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
+}
+#contenedor {
+  text-align: left;
+  width: 700px;
+  background-color: #ffffff;
+  margin: auto;
+}
+#cabecera {
+  background: transparent url(images/cabecera.jpg) no-repeat;
+  height: 288px;
+  width: 549px;
+}
+#cabecera h1 {
+  margin: 0px 0px 0px 0px;
+}
+#cabecera h1 span {
+  display: none;
+}
+#navegador {
+  background: #f5f4c3 url(images/fondonav.gif);
+  padding: 3px 10px 5px 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+A.enlacenav,
+A.enlacenav:visited,
+A.enlacenav:active,
+A.enlacenav:focus,
+A.enlacenav:link {
+  color: #494e6b;
+}
+A.enlacenav:hover {
+  color: #3f7de3;
+}
+#cuerpo {
+  width: 480px;
+  margin-left: 8px;
+  padding: 12px 0px 10px 0px;
+  background-color: #ffffff;
+  float: left;
+}
+h1 {
+  font-size: 12pt;
+}
+#navabajo {
+  font-weight: bold;
+}
+#lateral {
+  width: 200px;
+  background-color: #ebf2fe;
+  border-bottom: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  float: right;
+}
+.titlat {
+  background-color: #68729e;
+  color: #ffffff;
+  font-size: 8pt;
+  text-transform: uppercase;
+  padding: 7px 3px 7px 8px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 0px 0px 8px 0px;
+}
+.cuerpolateral {
+  padding: 5px 4px 13px 10px;
+}
+input {
+  font-size: 8pt;
+}
+#fbuscar form {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+#campotexto {
+  float: left;
+}
+#campotexto input {
+  width: 100px;
+}
+#botonbuscar {
+  padding-top: 3px;
+  padding-left: 106px;
+}
+#botonbuscar input {
+  border: 0px none;
+}
+.radio {
+  clear: both;
+}
+#otras ul {
+  margin: 5px 10px 0px 0px;
+  padding: 0px 0px 0px 4px;
+  list-style: none;
+}
+#otras li {
+  padding-left: 14px;
+  background: transparent url("images/bullet.gif") 0 2px no-repeat;
+  margin-bottom: 10px;
+}
+#pie {
+  clear: both;
+  color: #cccccc;
+  text-align: right;
+  margin: 10px 10px 0px 10px;
+  padding-bottom: 10px;
+}
+#borde {
+  border: 2px solid #cccccc;
+  text-align: left;
+  width: 700px;
+  margin: auto;
+}
